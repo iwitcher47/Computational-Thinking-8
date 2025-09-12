@@ -19,12 +19,14 @@ print("")
 name = input("Whats your name? ")
 
 print(f"Hi {name}! I'm a reporter and I need your help writing a fake news report to prank my friends! ")
+
 secret = input("Press Enter ")
+#this is where the secret thing is
 
 reportername = input("what should my name be? ")
 animal = input("what animal should be in the story? ")
 city = input("what city is the report in? ")
-feeling = input("what is a feeling that should be in the report? ")
+feeling = input("what is a feeling that should be in the report? example... sad, happy, depressed. ")
 thingsbreaking = input("what are some objects that should be broken in the story? ")
 ending = input("if you want a bad ending press 1, but if you want a happy ending press 2. ")
 print("")
