@@ -1,6 +1,0 @@
-name = input("Hi! whats your name?")
-print(f"hi {name}!")
-input("")
-print("what did the shy pebble wish for?")
-input("")
-print("the pebble asked to be a little boulder")
