@@ -1,17 +1,17 @@
 
 
-print(r"                   █████                                                                              ██                                                     ")
-print(r"               █████████           █  ██████            ████                                         ██           █████████                 █████            ")
-print(r"              ████                ██████████            ████          ████████             █        ███           ███████████            █████               ")
-print(r"              ███    ███         █████ ████            ████         █████████             ███      ███           ████     ███          ████                  ")
-print(r"             ███████████         ███ █████             ████        ████      ██          █████     ███          ████     ████         ███████████            ")
-print(r"            ███████      ████   ████████      ████     ███   ███  █████████████   ███   ████████   ███   ████   ███     ████   ████   ████████████  ")
-print(r"            ███          ███    ██████         ███    ████   ███  ████████        ███   ███  █████ ███   ████   ███  █████     ███           ████   ")
-print(r"           ███                 █████████             ████        █████     ██          ████    ███████         █████████                   █████      ")  
-print(r"          ████                 ███  ████████         ████        ███   ██████          ████     ██████        ███████                   ██████        ")
-print(r"          ███                 ███      ████████     ████         ██████████            ███        ███         ████                   ███████          ")
-print(r"          ███                ████           █        ███          ██████                                       ██                    ████            ")
-print(r"          ███                ███                                                                                                                       ")      
+print(r"                   █████                                                                              ██                                           ")
+print(r"               █████████           ████████            ████                                         ██           █████████                 █████   ")
+print(r"              ████                ██████████            ████          ████████             █        ███           ███████████            █████     ")
+print(r"              ███    ███         ████  ████            ████         █████████             ███      ███           ████     ███          ████        ")
+print(r"             ███████████         ███  ████             ████        ████      ██          █████     ███          ████     ████         ███████████  ")
+print(r"            ███████      ████   ████████      ████     ███   ███  █████████████   ███   ████████   ███   ████   ███     ████   ████   ████████████ ")
+print(r"            ███          ███    ██████         ███    ████   ███  ████████        ███   ███  █████ ███   ████   ███  █████     ███           ████  ")
+print(r"           ███                 █████████             ████        █████     ██          ████    ███████         █████████                   █████   ")  
+print(r"          ████                 ███  ████████         ████        ███   ██████          ████     ██████        ███████                   ██████     ")
+print(r"          ███                 ███      ████████     ████         ██████████            ███        ███         ████                   ███████       ")
+print(r"          ███                ████           █        ███          ██████                                       ██                    ████          ")
+print(r"          ███                ███                                                                                                                   ")      
 print("")
 print("")
 print(r"░█████╗░██╗░░██╗░█████╗░██████╗░░█████╗░░█████╗░████████╗███████╗██████╗░░██████╗  ░██████╗░██╗░░░██╗██╗███████╗")
@@ -29,6 +29,7 @@ ross = 0
 monica = 0
 phoebe = 0
 rachel = 0
+g = 0
 print("")
 print(r"┏━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┓")
 print(r"┗━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┻━━┛")
@@ -52,8 +53,10 @@ elif q1 == "c":
     phoebe += 1
 elif q1 == "e":
     rachel += 1
+elif q1 == "g": 
+    g += 1
 else:
-    print("for the next question press a, b, c, d, e, or f.")
+    print("for the next question press a, b, c, d, e, or f IN LOWERCASE.")
 
 print("")
 print(r"┏━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┳━━┓")
@@ -82,6 +85,8 @@ elif q2 == "c":
     phoebe += 1
 elif q2 == "e":
     rachel += 1
+elif q2 == "g": 
+    g += 1
 else:
     print("for the next question press a, b, c, d, e, or f.")
 
@@ -113,6 +118,8 @@ elif q3 == "c":
     phoebe += 1
 elif q3 == "e":
     rachel += 1
+elif q3 == "g": 
+    g += 1
 else:
     print("for the next question press a, b, c, d, e, or f.")
 
@@ -148,6 +155,8 @@ elif q4 == "c":
     phoebe += 1
 elif q4 == "e":
     rachel += 1
+elif q4 == "g": 
+    g += 1
 else:
     print("for the next question press a, b, c, d, e, or f.")
 
@@ -184,6 +193,8 @@ elif q5 == "c":
     phoebe += 1
 elif q5 == "e":
     rachel += 1
+elif q5 == "g": 
+    g += 1
 else:
     print("for the next question press a, b, c, d, e, or f.")
 print("")
@@ -212,7 +223,8 @@ elif phoebe > joey and phoebe > chandler and phoebe > ross and phoebe > monica a
     print("you are like phoebe")
 elif rachel > joey and rachel > chandler and rachel > ross and rachel > monica and rachel > phoebe:
     print("you are like rachel")
-
+elif g == 5:
+    print("WHY DID YOU PRESS G FOR THE QUESTIONS?!?!?!?!")
 else:
     print("you tied with multiple characters, these are your scores")
     print(f"joey = {joey}")
