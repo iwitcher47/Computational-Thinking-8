@@ -74,7 +74,7 @@ message1.hideturtle()
 
 #the words on the bottom saying my name
 message2 = create_sprite("alien",-200,-270)
-message2.color("HotPink")
+message2.color("DarkOrchid")
 message2.write("Isaac Witcher",font = ("Arial", 40, "normal"))
 message2.hideturtle()
 
