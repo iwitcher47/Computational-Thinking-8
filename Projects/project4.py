@@ -35,6 +35,7 @@ t.screen.bgcolor("black")
 #########josh's head################
 ct8 = create_sprite("josh", -35, 0)
 
+t.width(2)
 #####################################
 ##########the Pattern itself#########
 for i in range(100):
@@ -48,12 +49,19 @@ for i in range(100):
     t.forward(100+i)
     t.left(50)
 
+t.color("magenta")
+t.forward(50)
+#i got feedback to hide the turtle so i did
+t.hideturtle()
+
 ################################################
 ##############the words that say CT8############
 m1 = create_sprite("alien", -150, -250)
 m1.color("lightblue")
-m1.write("CT8",font = ("Arial", 100, "normal"))
+m1.write("CT8",font = ("arial", 100, "normal"))
 m1.hideturtle()
+
+window.update()
 
 turtle.exitonclick()
 
